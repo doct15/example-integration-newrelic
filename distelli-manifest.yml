@@ -22,8 +22,8 @@ bmcgehee/example-integration-newrelic:
     - 'sudo debconf-set-selections <<< "newrelic-php5 newrelic-php5/license-key string \"$NR_INSTALL_KEY\""'
     - sudo apt-get -y update
     - sudo apt-get -y install newrelic-php5
-    #- sudo sh -c "export NR_INSTALL_SILENT=\"$NR_INSTALL_SILENT\"; export NR_INSTALL_KEY=\"$NR_INSTALL_KEY\"; export NR_APP_NAME=\"$NR_APP_NAME\"; newrelic-install install"
-    - sudo newrelic-install install
+    - sudo sh -c "export NR_INSTALL_SILENT=\"$NR_INSTALL_SILENT\"; export NR_INSTALL_KEY=\"$NR_INSTALL_KEY\"; export NR_APP_NAME=\"$NR_APP_NAME\"; newrelic-install install"
+    #- sudo newrelic-install install
     
   PkgInclude:
     - simpleapp.php
