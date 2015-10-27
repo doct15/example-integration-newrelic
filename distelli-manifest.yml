@@ -2,8 +2,8 @@ bmcgehee/example-integration-newrelic:
 
   Env:
     - NR_INSTALL_SILENT: "TRUE"
-    - NR_APP_NAME: "PUT_YOUR_APP_NAME_HERE"
-    - NR_INSTALL_KEY: "PUT_YOUR_NEW_RELIC_LICENSE_KEY_HERE"
+    - NR_APP_NAME: "SET_THIS_IN_YOUR_ENVIRONMENT"
+    - NR_INSTALL_KEY: "SET_THIS_IN_YOUR_ENVIRONMENT"
     - PORT: "8000"
 
   PreInstall:
